@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do List App</title>
+    <link rel="stylesheet" href="To_Do_List.css" />
+  </head>
+
+  <body>
+    <div class="inputTask" id="inputTableContainer">
+      <label class="label">To Do: </label>
+      <input
+        class="inputTextBox"
+        type="text"
+        name="newTask"
+        id="newTask"
+        autocomplete="off"
+      />
+      <button onclick="addTask()">Add Task!</button>
+    </div>
+    <hr />
+
+    <div class="listParent" id="listParent">
+      <div class="toDoList" id="toDoList"><ul class="uList"></ul></div>
+    </div>
+    <script src="To_Do_List.js"></script>
+  </body>
+</html>
