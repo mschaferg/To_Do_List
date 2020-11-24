@@ -1,5 +1,3 @@
-let myToDoList = [];
-
 showList = () => {
     var x = document.getElementById("listParent");
     if (x.style.visibility === "hidden") {
